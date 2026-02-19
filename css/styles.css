@@ -1,0 +1,242 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 1.2;
+}
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feature-desc {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.our-team-img {
+  background-color: #ffffff;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+ul,
+ol {
+  list-style: none;
+  font-style: normal;
+}
+.our-features h2 {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+.ourteam h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  color: #2e2f42;
+}
+
+.ourteam p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.mainheader {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.button-mainheader {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.mainheader-logo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button-mainheader:hover,
+.button-mainheader:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  outline: none;
+}
+
+.main-footer-logo-add span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.main-footer-logo-add {
+  text-decoration: none;
+}
+
+.main-footer-logo {
+  background-color: #2e2f42;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.span-web {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.span-studio {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.navigation-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  transition: color 250ms ease;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+.ul-list-style-none {
+  text-decoration: none;
+  transition: color 250ms ease;
+}
+
+.address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+.portfolio-item-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* безразмерный для заголовка */
+
+.ourteam h2 {
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.ourteam p.position {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ourteam {
+  background: #f4f4fd;
+}
+
+.ourteammember {
+  color: #2e2f42;
+}
